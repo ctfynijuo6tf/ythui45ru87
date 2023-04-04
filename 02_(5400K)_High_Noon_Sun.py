@@ -1,7 +1,11 @@
 #Since the dawn of time
 
 import bpy
+
+
 bpy.context.object.rotation_euler = (0,0,0)#And loc HIGH
+
+
 bpy.context.object.location = (0,0,700000000)
 bpy.context.object.data.type = 'AREA'
 lampdata = bpy.context.object.data
